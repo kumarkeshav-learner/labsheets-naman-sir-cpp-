@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main() {
+    char string1[200], string2[100];
+    cout << "Enter first string: "; cin.getline(string1, 100);
+    cout << "Enter second string: "; cin.getline(string2, 100);
+    
+    
+    strcat(string1, string2);
+    cout << "Concatenated string: " << string1 << endl;
+    return 0;
+}
